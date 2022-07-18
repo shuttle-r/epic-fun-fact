@@ -111,7 +111,7 @@ local function loadingarea_Wraping() -- TextButton.LocalScript
 	local script = Instance.new('LocalScript', TextButton)
 
 	local state = true
-	task.wait(5)
+	task.wait(15)
 	
 		
 		state = not state
