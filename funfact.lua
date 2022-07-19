@@ -140,9 +140,10 @@ local function loadingarea_Wraping() -- TextButton.LocalScript
 				end
 				end --table
 		wait(3)
-		game:GetService("Players").LocalPlayer.PlayerGui.arceuslo2:Destroy() 
-
-
+    for i, v in pairs(gane:GetService("Workspace").LocalPlayer.PlayerGui:GetChildren()) do
+      if v.Name == "arceuslo2" then
+        v:Destroy()
+    end
 end
 
 --chat openner
