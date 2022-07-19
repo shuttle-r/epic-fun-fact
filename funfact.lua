@@ -140,7 +140,7 @@ local function loadingarea_Wraping() -- TextButton.LocalScript
 				end
 				end --table
 		wait(3)
-    for i, v in pairs(gane:GetService("Workspace").LocalPlayer.PlayerGui:GetChildren()) do
+    for i, v in pairs(game:GetService("Workspace").LocalPlayer.PlayerGui:GetChildren()) do
       if v.Name == "arceuslo2" then
         v:Destroy()
     end
